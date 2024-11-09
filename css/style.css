@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url(/boutique.webp) center center/cover no-repeat;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #ff4081;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.products {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 30px;
+}
+
+.product-card {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.product-card img {
+    width: 100%;
+}
+
+.product-card h3 {
+    padding: 10px;
+    margin: 0;
+}
+
+.product-card p {
+    margin: 10px 0;
+    padding: 0 10px;
+    color: #888;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+
+.socials a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .about{
+    background-color: palevioletred;
+    text-align: left;
+    border: 5px;
+  }
+  .Contact form {
+    background-color: palevioletred;
+    
+  }
+
+  
